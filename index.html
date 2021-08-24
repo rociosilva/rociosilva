@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fuentes elegidas-Tipografías GoogleFonts-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Castoro:ital@1&display=swap');
+    </style>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pre Entrega 3 - Proyecto Ceibo</title>
+</head>
+
+<body class="background-color">
+
+    <!--Inicio de header-->
+    <header>
+        <!--Inicio de zona navegable-->
+        <nav>
+            <div>
+                <!--Inicio de la lista desordenada-->
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <!--Submenú-->
+                    <li><a href="#tienda">Tienda </a>
+                        <ul>
+                            <li><a href="#velas">Velas </a></li>
+                            <li><a href="#espejos">Espejos </a></li>
+                            <li><a href="#almohadones">Almohadones </a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#como-comprar">Como Comprar</a></li>
+                    <li><a href="#nosotras">Nosotras </a></li>
+                    <li><a href="#inspiraciones">Inspiraciones </a></li>
+                    <li><a href="contacto.html" target="_blank">Contacto </a></li>
+                </ul>
+                <!--Fin de lista desordenada-->
+            </div>
+        </nav>
+        <!--Fin de zona navegable-->
+    </header>
+    <!--Fin de header-->
+
+    <!--Inicio de sección 1-->
+    <section class="inicio" id="inicio">
+        <h2 class="nos"> Ceibo Handmade</h2>
+        <p class="nos"> Descubri nuestros objetos y llevate a tu casa el que más te guste</p>
+    </section>
+    <!--Fin de la sección 1-->
+
+    <!--Inicio de la sección 2 - Aplicando Grid-->
+    <section class="tienda" id="tienda">
+        <div>
+            <div>
+                <h1>Tienda</h1>
+            </div>
+            <div class="grid-1">
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="multimedia/Imagenes/velas-madera.jpeg" alt="velas madera">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="multimedia/Imagenes/objetos-dorado.jpeg" alt="objetos dorados">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/velas-ceibo.png" id="velas"
+                        alt="velas de cera de soja">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/espejo-ceibo.png" id="espejos"
+                        alt="espejo de algodón">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/almohadones-amarillos.jpeg" id="almohadones"
+                        alt="almohadones amarillos">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="multimedia/Imagenes/box-regalo.jpeg" alt="box-regalo">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/casa-deco.jpeg" alt="living-room">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="multimedia/Imagenes/objetos-rosa.jpeg" alt="objetos rosa">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="multimedia/Imagenes/objetos-verde.jpeg" alt="objetos verdes">
+                </div>
+
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/almohadones-ceibo.png" alt="">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/inicio-ceibo1.jpg" alt="">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/cuarto-deco.jpg" alt="">
+                </div>
+                <div class="grid-1_item">
+                    <img class="grid-1_image" src="Multimedia/Imagenes/nosotras-ceibo.png" alt="">
+                </div>
+            </div>
+    </section>
+    <!--Fin de la sección 2-->
+
+
+    <!--Inicio de la sección 3-->
+    <section class="nosotras" id="nosotras">
+        <h2 class="nos">Nosotras</h2>
+        <P class="nos">Hola :) gracias por visitar nuestra página. <em>Somos Alfonsina y Rocio,</em>hermanas y amigas.
+            Apasionadas por el diseño y la decoración.
+        </P>
+    </section>
+    <!--Fin de la sección 3-->
+
+    <!--Inicio de la sección 4-->
+    <!--kebab-case-->
+    <section class="como-comprar" id="como-comprar">
+        <h2>¿Como comprar? Ceibo te lo explica</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Puedo comprar online?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Compra tranquilx desde tu casa</strong> nosotras hacemos envios a cualquier parte del
+                        país.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Donde estamos?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Estamos en Nuñez - Buenos Aires</strong>
+                        <p>Si estás en Buenos Aires podemos coordinar y pasas a buscar tu pedido o podes enviar a
+                            alguien a retirar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Sobre nuestros productos
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Recordá que nuestros productos son hechos a mano</strong> te pedimos que nos tengas
+                        paciencia para poder entregarte un producto que nos guste, bien hecho, con amor y sin mano de
+                        obra precarizada</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin de la sección 4-->
+
+    <!--Inicio de la sección 5-->
+    <section class="inspiraciones" id="inspiraciones">
+        <div class="row">
+            <div class="col-lg-5 col-sm-12">
+                <h2 class="text-center pt-4">Inspiraciones</h2>
+                <p class="text-center">Te dejamos algunas ideas para que te inspires y armes tu espacio con nuestros
+                    productos</p>
+            </div>
+            <div class="col-lg-7 col-sm-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="Multimedia/Imagenes/casa-deco.jpeg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Multimedia/Imagenes/cuarto-deco.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="Multimedia/Imagenes/living-deco.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+    </section>
+    <!--Fin de la sección 5-->
+
+    <!--Inicio de footer-->
+    <!--kebab-case-->
+    <div class="d-flex flex-row-reverse bd-highlight inferior-footer">
+        <footer>
+            <div class="p-2 bd-highlight">
+                <a href="https://www.instagram.com/ceibo.handmade/" target="_blank"><img class="logo"
+                        src="multimedia/Imagenes/logo-instagram.png"></a>
+            </div>
+            <div class="p-2 bd-highlight">
+                <a href="https://www.facebook.com/ceibohandmade-103843237876152" target="_blank"><img class="logo"
+                        src="multimedia/Imagenes/logo-facebook.png"></a>
+            </div>
+
+        </footer>
+    </div>
+    <!--Fin de footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous">
+    </script>
+
+
+
+</body>
+
+</html>
